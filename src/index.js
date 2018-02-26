@@ -1,1 +1,4 @@
-console.log('loaded');
+import { h, render } from 'preact';
+import App from './components/App';
+
+render(<App />, document.querySelector('main'));
